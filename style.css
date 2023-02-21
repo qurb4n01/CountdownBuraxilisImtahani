@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+.countdown-section{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1rem;
+}
+
+.mart5{
+    padding: 3rem;
+}
+
+.mart12{
+    padding: 3rem;
+}
+
+img{
+    width: 3rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+a{
+    padding-top: 1rem;
+}
+
+h3{
+    display: flex;
+    border: 3px solid black;
+    min-width: 3rem;
+    min-height: 3rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.expired5,.expired12{
+    font-size: 2rem;
+    color: red;
+}
